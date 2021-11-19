@@ -1,0 +1,147 @@
+.backgroundMain {
+    background-position: right bottom;
+    background-size: cover;
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+}
+.semiCircleBackground
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: auto;
+    z-index: 1;
+}
+.mainVideo
+{
+    border: 6px solid rgba(255,255,255,.5);
+    border-radius: 15px;
+}
+.customLine
+{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 2px;
+    position: relative;
+    background-color: #e6e6f1;
+    display: block;
+    max-width: 390px;
+}
+.customLine2
+{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 2px;
+    position: relative;
+    background-color: #0091fd;
+    display: block;
+    max-width: 100px;
+}
+.customLine::after
+{
+    content: "";
+    position: absolute;
+    background-color: #0091fd;
+    height: 2px;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100px;
+}
+
+.squareCard{
+    position: absolute;
+    width: 90%;
+    height: 90px;
+    background-color: rgb(0, 104, 180);
+    left: 5%;
+    opacity: 0.1;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.imgDocsCallToActions {
+    position: relative;
+    margin-top: -120px;
+    pointer-events: none;
+}
+.bgCallToAction
+{
+    background-image: url(../img/bg-call-to-action.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.customImagenCall3 {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    margin-top: -25px;
+}
+.iconEnd
+{
+    font-size: 150px;margin-right: 10%;margin-bottom: 10%;transform: rotate(-16deg);opacity: .25;
+}
+.bgAbout
+{
+    z-index: 1;
+    background-image: url(../img/bg-about.png);
+    background-position: right bottom;
+    background-size: cover;
+}
+.bgFooter
+{
+    background-image: url(../img/bgFooter.jpg);
+    background-size: cover;
+    background-position: bottom right;
+}
+@media only screen and (max-width:1200px) {
+    .imgDocsCallToActions {
+        position: relative;
+        margin-top: 20px;
+        pointer-events: none;
+    }
+}
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:992px) {
+    .backgroundMain
+    {
+        background-size: auto 60%;
+        background-repeat: no-repeat;
+    }
+    .semiCircleBackground
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .customImagenCall3 {
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        -webkit-transform: initial;
+        transform: inherit;
+        left: initial;
+        top: 0;
+    }
+}
+@media only screen and (max-width:600px) {}
+
+@media only screen and (max-width:480px) {}
+
+@media only screen and (max-width:320px) {}
+
+@media only screen and (max-width:240px) {}
