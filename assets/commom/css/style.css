@@ -104,6 +104,84 @@
     background-size: cover;
     background-position: bottom right;
 }
+.layer4 {
+    position: absolute;
+    width: 38%;
+    height: auto;
+    top: 55%;
+    left: 33%;
+    transform-style: preserve-3d;
+    z-index: 1;
+}
+.layer2 {
+    position: absolute;
+    width: 44.5%;
+    height: auto;
+    top: 22.5%;
+    right: 0;
+    transform-style: preserve-3d;
+    z-index: 3;
+}
+.layer3 {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    left: 0;
+    top: 38%;
+    transform-style: preserve-3d;
+    z-index: 1;
+}
+.layer1 {
+    position: absolute;
+    width: 41%;
+    height: auto;
+    top: 14.5%;
+    left: 25.5%;
+    transform-style: preserve-3d;
+    z-index: 2;
+}
+.containerAppScreen
+{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    overflow: hidden;
+}
+.layerLogin
+{
+    position: absolute;
+    width: 31.8%;
+    height: auto;
+    top: 10%;
+    left: 38.6%;
+    z-index: 1;
+}
+.sms
+{
+    position: absolute;
+    width: 18.5%;
+    height: auto;
+    top: 30%;
+    left: 62.9%;
+    z-index: 1;
+}
+.phone
+{
+    position: absolute;
+    width: 18.5%;
+    height: auto;
+    top: 27%;
+    left: 78.9%;
+    z-index: 1;
+}
+.messenger
+{
+    position: absolute;
+    width: 18.5%;
+    height: auto;
+    top: 44%;
+    left: 75.5%;
+    z-index: 1;
+}
 @media only screen and (max-width:1200px) {
     .imgDocsCallToActions {
         position: relative;
